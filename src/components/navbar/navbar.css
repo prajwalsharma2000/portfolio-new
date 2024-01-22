@@ -1,0 +1,43 @@
+ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+li{
+    display: flex;
+    font-size: 1.15rem;
+    padding-left: 10px;
+    height: 50px;
+    p{
+        margin: 30px;
+    }
+    div{
+        height: 78px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+.navbar{
+    background-color: azure;
+    height: 100%;
+    width: 10%;
+}
+hr{
+    opacity: 40%;
+}
+.nav-icon{
+    font-size: 25px;
+}
+.profile-pic{
+    height: 150px;
+    border: 5px solid teal;
+    border-radius: 50%;
+}
+.profile-pic-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+}

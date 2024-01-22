@@ -1,0 +1,67 @@
+.Intro{
+    width: 80%;
+    height: 80%;
+    padding: 5% 10% 5% 10%;
+}
+.name-header{
+    font-size: 3rem;
+    color: white;
+    font-family: sans-serif;
+}
+.swe{
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+.discription{
+    font-size: 1.7rem;
+    color: white;
+    font-family: sans-serif;
+}
+.media-icons{
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 120px;
+    .linkedin{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: azure;
+        .linkedin-icon{
+            font-size: 25px;
+            color: rgb(69, 134, 255);
+        }
+    }
+    .github{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-color: azure;
+        .github-icon{
+            font-size: 25px;
+        }
+    }
+}
+.contact-buttons{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 300px;
+    .read-more{
+        width: 140px;
+        border-radius: 8px;
+        border: white;
+    }
+    .contact-me{
+        width: 140px;
+        border-radius: 8px;
+        border: white;
+    }
+}
